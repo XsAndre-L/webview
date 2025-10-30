@@ -1,5 +1,5 @@
 import { BuildType, OUTPUT_DIR } from "../../../src/types/package-config.ts";
-import { runPackageAction } from "../../../src/packages.ts";
+import { runPackageAction } from "../../../src/commands/packages.ts";
 
 import { resolve, join } from "node:path";
 import { argv, env } from "node:process";
